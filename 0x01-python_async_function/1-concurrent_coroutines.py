@@ -6,8 +6,8 @@ A python script to learn about asyncronous programming
 
 import asyncio
 from typing import List, Callable
-
 wait_random: Callable = __import__('0-basic_async_syntax').wait_random
+
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
