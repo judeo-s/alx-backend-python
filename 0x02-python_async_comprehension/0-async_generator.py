@@ -5,10 +5,10 @@ A python script that generates a list asynchronously
 """
 import random
 import asyncio
-from typing import Iterator
+from typing import List
 
 
-async def async_generator() -> Iterator[int]:
+async def async_generator() -> List[float]:
     """
     An async function that yields a random number between 0 - 10
     """
