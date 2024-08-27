@@ -162,5 +162,6 @@ class TestIntegrationGithubOrgClient(TestCase):
         """Tear down the class by stopping the patcher."""
         cls.get_patcher.stop()
 
+
 if __name__ == "__main__":
     unittest.main()
